@@ -2,6 +2,7 @@ import React from 'react'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
 import { socialMedia } from '@/data'
+import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
             </div> */}
             <div className='flex flex-col items-center'>
                 <h1 className='heading lg:max-w-[45vw]'>Ready to Take <span className='text-purple'>your</span> digital presence to the next level</h1>
-                <p className='text-white-200 md:mt-10 my-5 text-center '>reach out to me today and let's discuss how can I can help you achieve your goals</p>
+                <p className='text-white-200 md:mt-10 my-5 text-center '>reach out to me today and let&apos;s discuss how can I can help you achieve your goals</p>
                 <a href="mailto:sajjadhussain9582@gmail.com" className='flex items-center'>
                     <MagicButton title='Lets get in touch'
                     icon={<FaLocationArrow/>}

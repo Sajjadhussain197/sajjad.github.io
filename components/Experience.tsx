@@ -1,6 +1,7 @@
 import { workExperience } from '@/data'
 import React from 'react'
 import { Button } from './ui/MovingBorder'
+import Image from 'next/image'
 const Experience = () => {
   return (
     <div className='py-20' id='testimonials'>

@@ -7,6 +7,7 @@ import animationData from '@/data/confetti.json'
 import Lottie from 'react-lottie'
 import { IoCopyOutline } from "react-icons/io5";
 import MagicButton from "./MagicButton";
+import Image from 'next/image'
 
 
 export const BentoGrid = ({
